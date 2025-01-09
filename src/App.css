@@ -1,0 +1,14 @@
+#card-container {
+    display: flex;
+    gap: 10px;
+
+
+}
+#card {
+    width: min(15vw, 250px);
+}
+
+img {
+    width: min(10vw, 200px);
+    
+}
