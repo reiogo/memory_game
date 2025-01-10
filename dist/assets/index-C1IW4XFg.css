@@ -1,1 +1,0 @@
-.card-container{display:flex;gap:10px;flex-wrap:wrap}.header{display:flex;justify-content:space-between;background-color:#ffebcd;padding:2vw 2vw 1vw}.score{display:flex;flex-direction:column;margin-right:10vw}.card{width:min(30vw,100px);height:min(30vw,100px);border:1px solid lightblue}.footer{margin-top:40px}.excuses{font-size:10px;color:gray}img{width:min(10vw,200px)}
