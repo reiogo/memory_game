@@ -3,10 +3,10 @@ export default function Scoreboard({ highscore, score }) {
     return (
         <div className="score">
             <div>
-                <span> Highscore: {highscore} </span>
+                <h3> Highscore: {highscore} </h3>
             </div>
             <div>
-                <span> Score: {score} </span>
+                <h3> Score: {score} </h3>
             </div>
         </div>
     )
