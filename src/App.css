@@ -9,18 +9,24 @@
 .header{
     display: flex;
     justify-content: space-between;
-    background-color:blanchedalmond;
+    background-color: mediumaquamarine;
     padding: 2vw 2vw 1vw 2vw;
+    margin-bottom: 3vh;
+    align-items: center;
 }
 .score {
     display: flex;
     flex-direction: column;
-    margin-right: 10vw;
+    margin-right: 3vw;
+    align-items: center;
+    border: darkslateblue 3px dotted;
+    padding: 1vw;
+    width: min(300px, 100vw);
 }
 
 .card {
-    width: min(30vw, 100px);
-    height: min(30vw, 100px);
+    width: min(45vw, 160px);
+    height: min(45vw, 160px);
     border: 1px solid lightblue;
 }
 .footer{
@@ -30,8 +36,14 @@
     font-size: 14px;
     color: gray;
 }
+.description {
+    font-size: 1.5em;
+    color: darkslateblue;
+    font-weight: bold;
+}
 
 img {
-    width: min(29vw, 95px);
+    width: min(44vw, 155px);
+    height: min(44vw, 155px);
     
 }

@@ -50,14 +50,16 @@ function App() {
   return (
     <>
       <div className="header">
-          <h2>
-          Memory Game
-          </h2>
+          <div>
+              <h1>
+                  Memory Game
+              </h1>
+              <p className ="description">
+      This game will test your memory! I will keep track of which cards you have already clicked, if you click on the same card twice then it&apos;s back to zero!
+              </p>
+          </div>
           <Scoreboard highscore={numberOfCards} score={score} />
       </div>
-      <p>
-      Continue clicking on cards that you haven&apos;t clicked on before. The score will tally until you&apos;re at the highest score!
-      </p>
       <div className = "card-container">
         {cards}
       </div>
